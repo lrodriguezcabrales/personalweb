@@ -1,0 +1,103 @@
+
+body{
+	margin: 0 !important;
+	padding: 0 !important;
+	background: #f1efef;
+}
+
+.banner{
+	background: orange;
+	min-height: 200px;
+}
+
+.top-banner{
+	background: rgba(255, 94, 0, 0.52);
+    height: 30px;
+}
+
+#iam{
+	font-size: 350%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5%;
+    font-color: white;
+}
+
+.content{
+	background: #f1efef;
+	text-align: center;
+    margin: 10px;
+}
+
+.h-menu{
+	text-align: center;
+	height: 40px;
+    background: rgba(255, 94, 0, 0.52);
+}
+
+.menu{
+	padding-top: 10px;
+/*	padding: 0;
+	margin-top: 20px;*/
+}
+
+.menu > .item{
+	width: 20%;
+}
+
+.menu > .item a{
+	color: #2b63b6;;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu > .item a:hover{
+	color: #000000;;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.item{
+	width: 30%;
+	display: inline-block;
+	/*float: left;*/
+}
+
+.item img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.img-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#aboutme {
+	width: 62%;
+}
+
+.task{
+	text-align: justify;
+}
+
+.me{
+	width: 40%;
+    display: inline-block;
+}
+
+.description{
+	width: 80%;
+    display: inline-block;
+}
+
+.description > img{
+	padding: 10px;
+}
+
+.footer{
+	border-top: 2px solid orange;
+	text-align: center;
+	padding: 50px 
+}
